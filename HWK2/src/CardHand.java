@@ -20,7 +20,7 @@ public class CardHand <C> implements Hand<C>{
 
   /**
    * add one <C> to the “front” of a Hand
-   * @param
+   * @param c
    */
   @Override
   public void add(C c) {
@@ -77,7 +77,7 @@ public class CardHand <C> implements Hand<C>{
 
   /**
    * Check if the list is empty
-   * @return
+   * @return true if the list is empty
    */
   @Override
   public boolean isEmpty() {
@@ -88,7 +88,7 @@ public class CardHand <C> implements Hand<C>{
   /**
    * return the index of the first item in the Hand that is equal to it
    * @param c
-   * @return
+   * @return the index of the first item in the Hand that is equal to it
    */
   @Override
   public int find(C c) {
